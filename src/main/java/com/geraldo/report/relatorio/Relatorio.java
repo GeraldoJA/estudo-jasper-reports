@@ -17,7 +17,7 @@ public class Relatorio {
 	
 	public void gerarRelatorio( List<Aluno> lista) throws JRException {
 		
-		InputStream fonte = Relatorio.class.getResourceAsStream("");  //carregar o arquivo
+		InputStream fonte = Relatorio.class.getResourceAsStream("/com/geraldo/report/arquivos/relatorio.jrxml");  //carregar o arquivo
 		
 		JasperReport report = JasperCompileManager.compileReport(fonte);  //compila o JasperReport e trata a exceção JRException
 		
