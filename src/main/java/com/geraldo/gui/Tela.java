@@ -173,11 +173,8 @@ public class Tela extends JFrame {
 		Aluno aluno = new Aluno();
 		aluno.setNome( tfNome.getText() );
 		aluno.setMatricula( tfMatricula.getText() );
-	//	aluno.setNota( Double.parseDouble(tfNota.getText()) );
-	//	aluno.setNota( tfNota.getText() );
-		aluno.setNota( Integer.parseInt(tfNota.getText()) );
+		aluno.setNota( Double.parseDouble(tfNota.getText()) );
 		aluno.setFaltas( Integer.parseInt(tfFaltas.getText()) );
-	//	aluno.setFaltas( tfFaltas.getText() );
 		
 		lista.add(aluno);
 		taPainel.append(aluno.toString());
