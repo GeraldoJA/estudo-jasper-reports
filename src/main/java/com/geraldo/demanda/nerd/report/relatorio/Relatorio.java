@@ -1,9 +1,9 @@
-package com.geraldo.report.relatorio;
+package com.geraldo.demanda.nerd.report.relatorio;
 
 import java.io.InputStream;
 import java.util.List;
 
-import com.geraldo.entidade.Aluno;
+import com.geraldo.demanda.nerd.entidade.Aluno;
 
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;

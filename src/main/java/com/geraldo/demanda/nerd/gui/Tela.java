@@ -1,4 +1,4 @@
-package com.geraldo.gui;
+package com.geraldo.demanda.nerd.gui;
 
 import java.awt.Component;
 import java.awt.EventQueue;
@@ -19,8 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.awt.event.ActionEvent;
 
-import com.geraldo.entidade.Aluno;
-import com.geraldo.report.relatorio.Relatorio;
+import com.geraldo.demanda.nerd.entidade.Aluno;
+import com.geraldo.demanda.nerd.report.relatorio.Relatorio;
 
 import net.sf.jasperreports.engine.JRException;
 

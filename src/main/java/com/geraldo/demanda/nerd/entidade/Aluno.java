@@ -1,4 +1,4 @@
-package com.geraldo.entidade;
+package com.geraldo.demanda.nerd.entidade;
 
 import lombok.Data;
 
